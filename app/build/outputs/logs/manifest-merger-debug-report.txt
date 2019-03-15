@@ -1,0 +1,112 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\48dd8275607b05ede59b99a54f2cf4cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dce90038fd10359ce29975c4dd18bd3e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\038b1228c58dddcd6f3429eb3148f5fb\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fee75419bd2eb64ccbfb63eb7e2ea1aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\114a2a9a10cd228d2bfcc94b7b1bc505\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ebae08ff45e1b3d8572b59de14b6d9e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\34439a6cbb5dde32767c2f1c705d9b74\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ba412a84585410d435dfed23d16b0457\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\66fe183273c74784e4c7e72e2fb37cbd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7c5637e0cc56d045a2aed65bd3173cdf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2e3616a4a08a56e32e42685784f0d7d8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea2f5ecb83db7d1a7cdd955d73b0f23b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\af0b6df5df6b2ba9facdd370d3949aee\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f5c4673a94bf1fa93cc432fe5fe4aa60\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e3d3efb72ca28cc39ee793b18cd59dde\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\114a2a9a10cd228d2bfcc94b7b1bc505\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\114a2a9a10cd228d2bfcc94b7b1bc505\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.kittipong_run.calendartest2.MainActivity
+ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\48dd8275607b05ede59b99a54f2cf4cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\48dd8275607b05ede59b99a54f2cf4cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dce90038fd10359ce29975c4dd18bd3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dce90038fd10359ce29975c4dd18bd3e\AndroidManifest.xml:20:5-44
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\038b1228c58dddcd6f3429eb3148f5fb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\038b1228c58dddcd6f3429eb3148f5fb\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fee75419bd2eb64ccbfb63eb7e2ea1aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fee75419bd2eb64ccbfb63eb7e2ea1aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\114a2a9a10cd228d2bfcc94b7b1bc505\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\114a2a9a10cd228d2bfcc94b7b1bc505\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ebae08ff45e1b3d8572b59de14b6d9e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\ebae08ff45e1b3d8572b59de14b6d9e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\34439a6cbb5dde32767c2f1c705d9b74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\34439a6cbb5dde32767c2f1c705d9b74\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ba412a84585410d435dfed23d16b0457\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ba412a84585410d435dfed23d16b0457\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\66fe183273c74784e4c7e72e2fb37cbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\66fe183273c74784e4c7e72e2fb37cbd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7c5637e0cc56d045a2aed65bd3173cdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7c5637e0cc56d045a2aed65bd3173cdf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2e3616a4a08a56e32e42685784f0d7d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\2e3616a4a08a56e32e42685784f0d7d8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea2f5ecb83db7d1a7cdd955d73b0f23b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ea2f5ecb83db7d1a7cdd955d73b0f23b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\af0b6df5df6b2ba9facdd370d3949aee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\af0b6df5df6b2ba9facdd370d3949aee\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f5c4673a94bf1fa93cc432fe5fe4aa60\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f5c4673a94bf1fa93cc432fe5fe4aa60\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e3d3efb72ca28cc39ee793b18cd59dde\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\oil\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e3d3efb72ca28cc39ee793b18cd59dde\AndroidManifest.xml:20:5-44
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+		ADDED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml
+		INJECTED from E:\01Project\ex\AndroidTimeSheetProject_libs\CalendarTest2\app\src\main\AndroidManifest.xml

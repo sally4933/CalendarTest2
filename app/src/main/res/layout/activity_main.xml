@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="310dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp">
+
+        <LinearLayout
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="#ffff">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/calendar_day" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/left"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="March 2019"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/right"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/expand_all" />
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/noti" />
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/menu" />
+
+        </LinearLayout>
+
+
+        <com.github.sundeepk.compactcalendarview.CompactCalendarView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/compactcalendar_view"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="60dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:compactCalendarBackgroundColor="#FFFFFF"
+            app:compactCalendarCurrentDayBackgroundColor="#B1F4FF"
+            app:compactCalendarCurrentSelectedDayBackgroundColor="#64C2E2"
+            app:compactCalendarMultiEventIndicatorColor="#CAFFF6"
+            app:compactCalendarTargetHeight="250dp"
+            app:compactCalendarTextColor="#000000"
+            app:compactCalendarTextSize="12sp" />
+        </android.support.v7.widget.CardView>
+
+        <ScrollView
+            android:id="@+id/scv_1"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:layout_below="@id/cv_calendar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+
+                >
+
+
+
+
+            </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+        </ScrollView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/list" />
+
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/time_sheet" />
+
+                <Button
+                    android:layout_width="45dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/project" />
+
+                <Button
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="56dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/more" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
+
