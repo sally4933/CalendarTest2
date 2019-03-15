@@ -113,10 +113,10 @@ public final class R {
         public static final int chronometer = 0x7f070028;
         public static final int end = 0x7f070037;
         public static final int forever = 0x7f07003e;
-        public static final int icon = 0x7f070043;
-        public static final int icon_group = 0x7f070044;
-        public static final int info = 0x7f070047;
-        public static final int italic = 0x7f070049;
+        public static final int icon = 0x7f070044;
+        public static final int icon_group = 0x7f070045;
+        public static final int info = 0x7f070048;
+        public static final int italic = 0x7f07004a;
         public static final int item_touch_helper_previous_elevation = 0x7f07004c;
         public static final int left = 0x7f07004d;
         public static final int line1 = 0x7f07004e;
@@ -145,12 +145,12 @@ public final class R {
     public static final class layout {
         private layout() {}
 
-        public static final int notification_action = 0x7f09001d;
-        public static final int notification_action_tombstone = 0x7f09001e;
-        public static final int notification_template_custom_big = 0x7f09001f;
-        public static final int notification_template_icon_group = 0x7f090020;
-        public static final int notification_template_part_chronometer = 0x7f090021;
-        public static final int notification_template_part_time = 0x7f090022;
+        public static final int notification_action = 0x7f09001e;
+        public static final int notification_action_tombstone = 0x7f09001f;
+        public static final int notification_template_custom_big = 0x7f090020;
+        public static final int notification_template_icon_group = 0x7f090021;
+        public static final int notification_template_part_chronometer = 0x7f090022;
+        public static final int notification_template_part_time = 0x7f090023;
     }
     public static final class string {
         private string() {}

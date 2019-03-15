@@ -4,16 +4,22 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.example.kittipong_run.calendartest2.fragment.MainFragment;
+import com.example.kittipong_run.calendartest2.recyclerview.BaseItem;
+import com.example.kittipong_run.calendartest2.recyclerview.CardViewItem;
+import com.example.kittipong_run.calendartest2.recyclerview.MainAdapter;
 import com.github.sundeepk.compactcalendarview.CompactCalendarView;
 import com.github.sundeepk.compactcalendarview.domain.Event;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -24,11 +30,21 @@ public class MainActivity extends AppCompatActivity {
     private CompactCalendarView compactCalendar;
     private String TAG = "GG";
 
+    private RecyclerView recyclerView;
+    private MainAdapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Add Fragment for First Create Activity
+        if (savedInstanceState == null) {
+            MainFragment mainFragment = new MainFragment();
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.fraTimesheet, mainFragment)
+                    .commit();
+        }
 
 
         String date1 = "01/03/2019";
@@ -49,9 +65,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-
         compactCalendar = (CompactCalendarView)findViewById(R.id.compactcalendar_view);
-
 
         final CompactCalendarView compactCalendarView = (CompactCalendarView) findViewById(R.id.compactcalendar_view);
         // Set first day of week to Monday, defaults to Monday so calling setFirstDayOfWeek is not necessary
@@ -88,4 +102,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }
