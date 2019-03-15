@@ -14,6 +14,6 @@ public class Holder extends RecyclerView.ViewHolder {
     }
     
     public void setItem(int position) {
-        tx_project.setText(mDataset[position]);
+       // tx_project.setText(mDataset[position]);
     }
 }

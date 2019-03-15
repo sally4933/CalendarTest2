@@ -12,7 +12,7 @@ import java.util.List;
 public class MyRecyclerAdapter extends RecyclerView.Adapter<Holder> {
 
     Context mContext;
-    List<Contact> mData;
+   // List<Contact> mData;
 
     @NonNull
     @Override
